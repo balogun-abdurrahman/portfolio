@@ -5,8 +5,8 @@
 #body{
     background-color: #F4F3F9;
 }
-div{
-    border: 2px solid indigo;
+.a3{
+    height: 300px;
 }
 #sections{
     display: flex;
@@ -17,7 +17,7 @@ div{
     height: 689px;
     top: 0px;
     position: sticky;
-    border: 2px solid green;
+    background-color: white;
 }
 .section2{
     width: 40%;
@@ -66,7 +66,7 @@ div{
     background-size: contain;
 }
 .footer{
-    background-color: #F4F3F9;
+    background-color: white;
     height: 88px;
 }
 #footer{
@@ -84,21 +84,29 @@ h3, p{
 .p{
     letter-spacing:2px;
 	line-height:25px;
+    color: #660c40;
 }
 .p1{
     padding-left: 50px;
+    color:  #30011E;
+}
+.cl{
+    color: #30011E;
 }
 .h1{
     padding: 200px 0px 20px 20px;
     font-size: 60px;
-    color: #3E3F5E;
+    color: #660c40;
 }
 h3, p{
     padding: 2px 20px 20px 20px;
 }
-a{
+#aa{
     text-decoration: none;
     color: white;
+}
+a{
+    text-decoration: none;
 }
 #media{
     display: flex;
@@ -114,7 +122,7 @@ a{
 }
 .btn:hover{
     background-color: white;
-    border: 3px solid #2ECA7F;
+    border: 2px solid #2ECA7F;
     color: #2ECA7F;
 }
 a:hover{
@@ -130,23 +138,29 @@ a:hover{
 .art{
     padding: 50px 0px 5px 50px;
     font-size: 30px;
+    color: #30011E;
 }
 .arti{
     padding-left: 50px;
+    color: #660c40;
 }
 .th{
     font-size: 20px; font-weight: 700;
     padding-left: 45px;
+    color: #660c40;
 }
 .td{
-    font-size: 20px; font-weight: 100;
+    font-size: 20px; font-weight: 100;color: #660c40;
 }
-
+.lsr{
+    color: #660c40;
+}
 .ex{
     padding: 0px 0px 0px 10px;
     margin-top: 50px;
     font-size: 25px;
     font-weight: 500;
+    color: #660c40;
 }
 .exp{
     padding-left: 50px;
@@ -156,7 +170,7 @@ a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid violet;
+
     
 }
 .ar3{
@@ -164,11 +178,9 @@ a:hover{
     height: 250px;
     border-radius: 10px;
     background-color: #fff;
-    border: 2px solid blue;
 }
 #rr{
     display: block;
-    border: 2px solid black;
     height: 585px;
 }
 
@@ -180,12 +192,43 @@ a:hover{
     width: 50%;
     height: 500px;
 }
+.inp{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border: 1px solid #2ECA7F;
+    border-radius: 10px;
+    margin: 10px 10px 10px 20px;
+    padding: 5px;
+}
+.ip{
+    height: 100px;
+}
+.tn{
+    margin-left: 20px;
+}
+.a{
+    font-weight: 900;
+    font-size: 30px;
+}
+.an{
+    color: #30011E;
+}
+.ls{
+    padding: 10px 10px 10px 20px;
+    font-size: 15px;
+    font-weight:700;
+    font-family: oswald;
+    color: #3E3F5E;
+}
+.st{
+    margin-left: 20px;
+}
+
 @media all and (min-width:320px) and (max-width:1000px){
     #media{
         display: block;
         width: 90%;
-        background-color: blue;
-        border: 2px solid aqua;
     }
     .section1{
         height: 1200px;
@@ -203,6 +246,9 @@ a:hover{
         margin-top: 0px;
         width: 100%;
 
+    }
+    .inp{
+        margin-left: 5px;
     }
 
 }
