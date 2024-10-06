@@ -6,7 +6,7 @@
     background-color: #F4F3F9;
 }
 div{
-
+    border: 2px solid indigo;
 }
 #sections{
     display: flex;
@@ -30,7 +30,7 @@ div{
 .section3{
     width: 60%;
     box-sizing: border-box;
-    height: 4280px;
+    height: 3500px;
 
 }
 #top{
@@ -152,20 +152,33 @@ a:hover{
     padding-left: 50px;
 }
 .ar{
-    height: 250px;
+    height: 290px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border: 2px solid violet;
     
 }
 .ar3{
     width: 40%;
-    height: 200px;
+    height: 250px;
     border-radius: 10px;
     background-color: #fff;
+    border: 2px solid blue;
 }
 #rr{
     display: block;
+    border: 2px solid black;
+    height: 585px;
+}
+
+.pp2{
+    display: flex;
+    align-items: center;
+}
+.p2{
+    width: 50%;
+    height: 500px;
 }
 @media all and (min-width:320px) and (max-width:1000px){
     #media{
