@@ -6,7 +6,7 @@
     background-color: #F4F3F9;
 }
 div{
-     border: 2px solid red;
+    border: 2px solid greenyellow;
 }
 #sections{
     display: flex;
@@ -23,7 +23,6 @@ div{
     width: 40%;
     box-sizing: border-box;
     height: 688px;
-    border: 2px solid blue;
     top: 0px;
     position: sticky;
 
@@ -32,10 +31,33 @@ div{
     width: 60%;
     box-sizing: border-box;
     height: 4280px;
-    border: 2px solid  black;
 
 }
+#top{
+    width: 50px;
+    height: 50px;
+    padding-top: 200px;
+}
 
+.s1{
+    width: 50px;
+    height: 50px;
+    padding: 5px 5px 5px 5px;
+    box-sizing: border-box;
+}
+.t1{
+    margin-top: 5px;
+}
+
+.t1:hover{
+    border-top: 2px solid #2ECA7F;
+    border-bottom:2px solid #2ECA7F;
+
+}
+.i1:hover{
+    border-bottom:2px solid #2ECA7F;
+
+}
 .img{
     height: 600px;
     background-image: url(images/pic.png);
@@ -47,16 +69,24 @@ div{
     background-color: #F4F3F9;
     height: 88px;
 }
+#footer{
+    text-align: center;
+    padding-top: 25px;
+}
 .article{
     height: 700px;
+    border: 1px solid #2ECA7F;
 
 }
 h3, p{
     padding-top: 10px;
 }
-p{
+.p{
     letter-spacing:2px;
-				line-height:25px;
+	line-height:25px;
+}
+.p1{
+    padding-left: 50px;
 }
 .h1{
     padding: 200px 0px 20px 20px;
@@ -92,9 +122,33 @@ a:hover{
 }
 #btn{
     display: flex;
-
+    margin-top: 30px;
 }
 .button{
+    padding-left: 50px;
+}
+.art{
+    padding: 50px 0px 5px 50px;
+    font-size: 30px;
+}
+.arti{
+    padding-left: 50px;
+}
+.th{
+    font-size: 20px; font-weight: 700;
+    padding-left: 45px;
+}
+.td{
+    font-size: 20px; font-weight: 100;
+}
+
+.ex{
+    padding: 0px 0px 0px 10px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.exp{
     padding-left: 50px;
 }
 @media all and (min-width:320px) and (max-width:1000px){
