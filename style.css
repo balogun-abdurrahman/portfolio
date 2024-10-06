@@ -6,7 +6,7 @@
     background-color: #F4F3F9;
 }
 div{
-    border: 2px solid greenyellow;
+
 }
 #sections{
     display: flex;
@@ -150,6 +150,22 @@ a:hover{
 }
 .exp{
     padding-left: 50px;
+}
+.ar{
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.ar3{
+    width: 40%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+#rr{
+    display: block;
 }
 @media all and (min-width:320px) and (max-width:1000px){
     #media{
